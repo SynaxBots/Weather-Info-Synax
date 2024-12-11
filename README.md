@@ -21,7 +21,7 @@
 <details>
 <summary><b>Features</b></summary>
 
-- [x] Find All Country Information
+- [x] Find All Country,State Information
 </details>
 
 
