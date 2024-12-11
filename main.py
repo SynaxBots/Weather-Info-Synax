@@ -16,64 +16,66 @@ Bot = Client(
 
 START_TEXT = """Hello {},
 
-I am a weather information finding bot. \
-Give me a country/city/place name, \
-I will send the weather informations about the place."""
+☛ I am a weather information finding bot. \
+☛ Give me a country/city/place name, \
+☛ I will send the weather informations about the place.
+
+♛ For More Join @SynaxNetwork"""
 
 HELP_TEXT = """**More Help**
 
-- Just send me a country/city/place name
-- Then I will check and send you the informations
+✒︎ Just send me a country/city/place name
+✒︎ Then I will check and send you the informations
 
 **Informations :-**
-Location details, current weather conditions \
+☛ Location details, current weather conditions \
 (includes air quality details)"""
 
 ABOUT_TEXT = """**About Me**
 
-- **Bot :** `Weather Bot`
-- **Creator :**
-  - [Telegram](https://telegram.me/FayasNoushad)
-  - [GitHub](https://github.com/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Weather-Bot/tree/main)
-- **Language :** [Python3](https://python.org)
-- **Framework :** [Pyrogram](https://pyrogram.org)"""
+☛ **ʙᴏᴛ :** `𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐒𝐲𝐧𝐚𝐱 𝐁𝐨𝐭`
+☛ **ᴄʀᴇᴀᴛᴏʀ :**
+  ✒︎ [𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦](https://telegram.me/verifiedsarthak)
+  ✒︎ [𝐆𝐢𝐭𝐡𝐮𝐛](https://github.com/synaxBots)
+  ✒︎[𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦](https://instagram.com/maybe__abhii)
+☛ **ʟᴀɴɢᴜᴀɢᴇ :** [𝐏𝐲𝐭𝐡𝐨𝐧3](https://python.org)
+☛. **ғʀᴀᴍᴇᴡᴏʀᴋ :** [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://pyrogram.org)"""
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Send Feedback', url='https://telegram.me/FayasNoushad')
+            InlineKeyboardButton('Send Feedback', url='https://telegram.me/verifiedsarthak')
         ],
         [
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('About', callback_data='about'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('ʜᴇʟᴘ 🍀', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🍁', callback_data='about'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ 🦀', callback_data='close')
         ]
     ]
 )
 HELP_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Home', callback_data='home'),
-            InlineKeyboardButton('About', callback_data='about'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('ʜᴏᴍᴇ ☘️', callback_data='home'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🍁', callback_data='about'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ 🦀', callback_data='close')
         ]
     ]
 )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Home', callback_data='home'),
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('ʜᴏᴍᴇ ☘️', callback_data='home'),
+            InlineKeyboardButton('ʜᴇʟᴘ 🍀', callback_data='help'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ 🦀', callback_data='close')
         ]
     ]
 )
 ERROR_BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('ʜᴇʟᴘ 🍀', callback_data='help'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ 🦀', callback_data='close')
         ]
     ]
 )
@@ -129,7 +131,7 @@ async def weatherinfo(bot, update):
         return
     
     reply_markup=InlineKeyboardMarkup([
-        [InlineKeyboardButton('Send Feedback', url='https://telegram.me/FayasNoushad')]
+        [InlineKeyboardButton('Send Feedback', url='https://telegram.me/verifiedsarthak')]
     ])
     
     try:
