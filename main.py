@@ -16,9 +16,8 @@ Bot = Client(
 
 START_TEXT = """Hello {},
 
-☛ I am a weather information finding bot. \n
-☛ Give me a country/city/place name, \n
-☛ I will send the weather informations about the place.
+☛ I am a weather information finding bot.
+☛ Give me a country/city/place name,I will send the weather informations about the place.
 
 ♛ For More Join @SynaxNetwork"""
 
